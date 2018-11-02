@@ -3,11 +3,8 @@
     font-family: 'Cormorant Infant', serif; 
 }
 
- body{
-/* Background picture */     
-
-}
-
+ 
+/* first page */
 header {
     position: absolute;
     top: 0;
@@ -50,7 +47,6 @@ picture {
 }
 
 .flexcontainer{
-  /*  height: 100%; Ursprungs height*/
     height: 100vh; 
     justify-content: center;
     flex-direction: row;
@@ -66,8 +62,6 @@ li {
     justify-content: center;
     flex-direction: column;
     display: flex; 
-    /* align-items: flex-end; */
-    /* align-self: flex-end;  */
     font-size: 1.7em;
     list-style-type: none;
     padding-left: 0;
@@ -87,15 +81,16 @@ li {
     color: rgb(109, 95, 95);
 } 
 
+/* About me page */
 .flexcontainer2{
-    /* height: 20em; */
+    
     position: relative;
-   justify-content: center; 
+    justify-content: center; 
     flex-direction: column;
     display: flex; 
     align-items: center;
-   list-style-type: none;
-   padding: 1em;
+    list-style-type: none;
+    padding: 1em;
 }
 
 .flexcontainer2>section>article {
@@ -122,11 +117,11 @@ li {
 
 
 .circles { 
- /* justify-content: flex-start;*/
     flex-direction: row;
     display: flex; 
-    /*align-items: flex-start; */
 } 
+
+/* Skill bar js*/
 #doughnut-chart1 {
     justify-content: flex-start;
     flex-direction: row;
@@ -161,13 +156,10 @@ li {
     flex-direction: column;
     padding: 1em;
  }
+
  .work>section>article{
      padding: 1em;
  }
-
- /*.work>section>* {
-     max-width: 425px;
- }*/
 
  .work>section>img {
     margin-bottom: 1em;
@@ -195,7 +187,6 @@ li {
 
 /* Contactpage starts here */
  
- 
  .social{
      font-size: 3em;
      flex-direction: row;
@@ -203,16 +194,7 @@ li {
      justify-content: space-around; 
 
  }
-/* scrolla ner with flow 
-@keyframes scrolleasy {
-margin:20%;
-}
 
-#about {
-    animation: scrolleasy 2s;
-}*/
-
-/* Skillbar */
 
 @media only screen and (max-width: 768px){
     .flexcontainer #name{
